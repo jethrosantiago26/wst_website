@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,14 +11,14 @@
   <header>
     <div class="container">
       <h1>Portfolio</h1>
+      <p id="demo"></p>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="https://github.com/jethrosantiago26">Github</a></li>
         </ul>
-      <p id="demo"></p>
       <script src = "script.js"></script>
       </nav>
     </div>
@@ -28,14 +28,32 @@
     <div class="image-container">
       <img src="images/unnamed.jpg" alt="image of santiago" />
     </div>
-    <div class ="about">
-      <h2 style="text-align: center; color:rgb(255, 255, 255);">I am an undergraduate IT student with hands-on experience in building functional and user-focused web applications. I have worked with various technologies, including the Laravel framework, where I developed a school profiling system that focused on clean design, usability, and efficient data management.</h2>
+    <div class ="introduction">
+      <h4 style="text-align: center; color:rgb(95, 240, 191);">Hello, I am </h4>
+      <h1 style="text-align: center; color:rgb(255, 255, 255);">John Jethro B. Santiago</h5>
+      <h2 style="text-align: center; color:rgb(95, 240, 191);">Full Stack Developer</h2>
+    </div>
+    <div class ="description">
+      <h3 style="text-align: center; color:rgb(255, 255, 255);">I am an undergraduate IT student with hands-on experience in building functional and user-focused web applications. I have worked with various technologies, including the Laravel framework, where I developed a school profiling system that focused on clean design, usability, and efficient data management.</h3>
     </div>
   </main>
-
-  <footer>
-    <p>Owned by John Jethro B. Santiago</p>
-  </footer>
+<footer>
+  <div>
+        <p>
+            <h3>Send Message</h3>
+            <form action="/action_page.php"></form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"><br><br> 
+            <label for="fname">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="lname">Message:</label>
+            <input type="text" id="message" name="message"><br><br>
+            <input type="submit" value="Submit">
+            </form>            
+        </p>
+        <h4>Owned By John Jethro B. Santiago</h4>
+    </div>
+</footer>    
 
 
 </body>
