@@ -3,13 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<title>My Portfolio</title>
 <title> </title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
         <div class="container">
+            <p id="demo"></p>
             <h1>Portfolio</h1>
             <nav>
                 <ul>
@@ -21,12 +22,17 @@
             </nav>
         </div>
     </header>
+<script src = "script.js"></script>
 <main>
-    <div class ="about">
+    <div>
         <h1 style="text-align: center; color:rgb(255, 255, 255);">
             About Me
         </h1>
-        <hr>
+                <hr>
+    </div>
+    
+    <div class ="about">
+
         <h3 style="text-align: center;color:rgb(255, 255, 255);">I'm a third-year undergraduate IT student with a strong interest in developing reliable and user-focused software solutions. I enjoy building clean and functional interfaces while applying solid programming principles to create applications that are both usable and maintainable.
 
 Throughout my academic journey, I have worked with a variety of technologies, including React, PHP, JavaScript, HTML/CSS, Tailwind CSS, and database systems such as MySQL and MariaDB. These experiences have strengthened my understanding of full-stack web development and version control using Git.
@@ -38,7 +44,7 @@ In my free time, I continue to improve my skills by exploring modern web technol
     <div>
         <p>
             <h3>Send Message</h3>
-            <form action="/action_page.php"></form>
+            <form action="/action_page.php">
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name"><br><br> 
             <label for="fname">Email:</label>

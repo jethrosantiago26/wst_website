@@ -64,7 +64,20 @@ nav ul li a:hover {
   text-align: center;
 
 }
+.introduction{
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  text-justify: inter-word;
+}
 .description {
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
+.about {
   max-width: 700px;
   margin: 20px auto;
   text-align: justify;
