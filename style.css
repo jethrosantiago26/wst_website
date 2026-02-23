@@ -121,6 +121,7 @@ nav ul li a:hover {
   height: 100%;
   object-fit: contain;
   clip-path: circle(45%);
+
   
 }
 .interactive-element {
@@ -128,10 +129,11 @@ nav ul li a:hover {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease-out;
+    animation: pulse-glow 2s infinite alternate;
 }
 
 .interactive-element:hover {
-    transform: translateY(-10px);
+    transform: scale(1.035);
 }
 /* for footer */
 .content-wrap {
@@ -148,4 +150,3 @@ footer {
   bottom: 0;
   position: relative;
 }
-
