@@ -104,7 +104,7 @@ nav ul li a:hover {
 .techstack-logos {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 44px;
     flex-wrap: wrap;
 }
 
@@ -116,16 +116,29 @@ nav ul li a:hover {
     padding: 20px
 }
 .about {
-  margin: 20px auto;
+  margin: 40px auto;
   text-align: center;
   text-justify: inter-word;
   line-height: 1.7;
   padding-left: 200px;
   padding-right: 200px;
 }
+.container h1 {
+  margin-top:20px;
+  margin-bottom:20px;
+}
 #nav h2 {
   font-size: 28px;
   margin-bottom: 20px;
+}
+.card {
+  background-color: #21613a;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 #demo {
   font-size: 15px;
@@ -134,6 +147,8 @@ nav ul li a:hover {
   width: 100%;
 }
 .image-container {
+  display:flex;
+  justify-content: center;
   position: relative;
   width: 300px;         
   height: 300px;
