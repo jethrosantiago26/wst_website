@@ -6,6 +6,7 @@
 }
 html {
   overflow-y: scroll;
+  
 }
 
 body {
@@ -15,6 +16,8 @@ body {
     color: #f0f6fc, var(--color-fg-default);
     background-color: #0d1117;
     line-height: 1.5;
+    color:rgb(255, 255, 255);
+
 }
 
 header {
@@ -81,14 +84,44 @@ nav ul li a:hover {
   margin: 20px auto;
   text-align: center;
   text-justify: inter-word;
-  line-height: 1.6;
+  line-height: 1.7;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.projects {
+  margin: 20px auto;
+  text-align: center;
+  text-justify: inter-word;
+  line-height: 2;
+  list-style-type: none;
+}
+.projects ul {
+  list-style:none;
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.techstack-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
+.techstack-logos img {
+    max-width: 15%;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+    padding: 20px
+}
 .about {
   margin: 20px auto;
   text-align: center;
   text-justify: inter-word;
-  line-height: 1.6;
+  line-height: 1.7;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 #nav h2 {
   font-size: 28px;
@@ -108,6 +141,11 @@ nav ul li a:hover {
   overflow: hidden;
   
 }
+.icons-container ul{
+  list-style:none;
+  padding:0;
+  
+}
 .fa-github {
   font-size: 20px;
 }
@@ -121,8 +159,6 @@ nav ul li a:hover {
   height: 100%;
   object-fit: contain;
   clip-path: circle(45%);
-
-  
 }
 .interactive-element {
     width: 100%;
@@ -130,6 +166,13 @@ nav ul li a:hover {
     object-fit: cover;
     transition: transform 0.3s ease-out;
     animation: pulse-glow 2s infinite alternate;
+}
+.techstack-logos .interactive-element {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
+    animation: pulse-glow 5s infinite alternate;
 }
 
 .interactive-element:hover {
